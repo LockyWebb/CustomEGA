@@ -1,0 +1,17 @@
+Package: CustomEGA
+Type: Package
+Title: Create Custom Error Grid Analyses
+Version: 0.1.0
+Author: Lachan Webb and Anita Pelecanos
+Maintainer: Lachlan Webb <Lachlan.Webb@qimrberghofer.edu.au>
+Description: Create and Implement Custom Error Grid Analyses.
+    Plot Custom Error Grids, and analyse data with custom error grids. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    ggplot2,
+    magrittr,
+    tidyr
+RoxygenNote: 7.1.1
