@@ -7,21 +7,22 @@
 zones(data, coords, area_labels, dir = "in")
 }
 \arguments{
-\item{data}{dataframe, dataset of points}
+\item{data}{A dataframe, the dataset of points of (gold standard method, novel method)}
 
-\item{coords}{dataframe of coordinates of points making up lines of error grid}
+\item{coords}{A dataframe, coordinate points of lines for a Custom Error Grid}
 
-\item{area_labels}{vector of area labels for each zone}
+\item{area_labels}{A vector of area labels for each zone}
 
-\item{dir}{character direction, should points on line go to the inner or outer zone c("in","out")}
+\item{dir}{A character value for direction. Should points that sit on a Error Grid line go to the inner or outer zone c("in","out")}
 }
 \value{
-vector
+A vector of zones. You can add this vector to a dataframe, or keep it as a separate object.
+        It does not automatically add it to the dataset the data points came from.
 }
 \description{
-Master function to calculate the zones for a given set of data points
-and given grid defined by coordinates in a dataframe. Performs checks
-on data and grid coordinates
+Function to calculate the zones for a given set of data points
+and given an Error Grid defined by coordinates in a dataframe. Performs checks
+on data and grid coordinates to ensure everything has been entered correctly.
 }
 \examples{
 \dontshow{
@@ -41,6 +42,10 @@ line_id=c(1,1,1,1,1,
          4,4,4,4))
 }
 
-zones(data = datapoints, coords = coordinates, area_labels = c("C","B","A","B","C"))
-zones(data = datapoints, coords = coordinates, area_labels = c("C1","B1","A","B2","C2"))
+zones(data = datapoints,
+      coords = coordinates,
+      area_labels = c("C","B","A","B","C"))
+zones(data = datapoints,
+      coords = coordinates,
+      area_labels = c("C1","B1","A","B2","C2"))
 }

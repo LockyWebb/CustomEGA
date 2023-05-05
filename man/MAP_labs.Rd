@@ -3,7 +3,7 @@
 \docType{data}
 \name{MAP_labs}
 \alias{MAP_labs}
-\title{Area labels for Saugel MAP Error Grid for blood glucose}
+\title{Saugel MAP Error Grid Area Labels}
 \format{
 An RData object
 }
@@ -14,7 +14,7 @@ An RData object
 data(MAP_labs)
 }
 \description{
-The area labels data file to use Saugel MAP Error Grid for blood glucose
+The area labels data file to use for the Saugel MAP Error Grid
 }
 \examples{
 data(MAP_labs)

@@ -7,13 +7,13 @@
 check_line_cross(coords)
 }
 \arguments{
-\item{coords}{dataframe coordinate points of lines on custom error grid}
+\item{coords}{A dataframe, coordinate points of lines for Custom Error Grid}
 }
 \value{
 Error message if lines cross. Otherwise nothing.
 }
 \description{
-Check Line Cross
+Check if lines of Custom Error Grid cross. Lines can overlap, but they cannot intersect.
 }
 \examples{
 \dontshow{

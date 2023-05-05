@@ -7,15 +7,15 @@
 check_points(data, coords)
 }
 \arguments{
-\item{data}{dataframe dataset of points}
+\item{data}{A dataframe, dataset of points}
 
-\item{coords}{dataframe coordinate points of lines on custom error grid}
+\item{coords}{A dataframe,  coordinate points of lines for Custom Error Grid}
 }
 \value{
 Error message if data is outside area defined by grid coordinates. Otherwise nothing.
 }
 \description{
-Check Points
+Check if points have been entered in correct format
 }
 \examples{
 \dontshow{
@@ -34,5 +34,6 @@ line_id=c(1,1,1,1,1,
          3,3,3,3,3,3,3,3,
          4,4,4,4))
 }
-check_points(data = datapoints, coords = coordinates)
+check_points(data = datapoints,
+             coords = coordinates)
 }

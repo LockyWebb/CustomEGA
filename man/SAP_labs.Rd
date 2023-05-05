@@ -3,7 +3,7 @@
 \docType{data}
 \name{SAP_labs}
 \alias{SAP_labs}
-\title{Area labels for Saugel SAP Error Grid for blood glucose}
+\title{Saugel SAP Error Grid Area Labels}
 \format{
 An RData object
 }
@@ -14,7 +14,7 @@ An RData object
 data(SAP_labs)
 }
 \description{
-The area labels data file to use Saugel SAP Error Grid for blood glucose
+The area labels data file to use for the Saugel SAP Error Grid
 }
 \examples{
 data(SAP_labs)

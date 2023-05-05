@@ -41,10 +41,15 @@ line_id=c(1,1,1,1,1,
          3,3,3,3,3,3,3,3,
          4,4,4,4))
 }
-desc_EGA(data = datapoints, coords = coordinates, area_labels = c("C","B","A","B","C"))
-desc_EGA(data = datapoints, coords = coordinates, area_labels = c("C1","B1","A","B2","C2"))
+desc_EGA(data = datapoints,
+         coords = coordinates,
+         area_labels = c("C","B","A","B","C"))
+desc_EGA(data = datapoints,
+         coords = coordinates,
+         area_labels = c("C1","B1","A","B2","C2"))
 
-datapoints$zone <- zones(data = datapoints, coords = coordinates,
+datapoints$zone <- zones(data = datapoints,
+                         coords = coordinates,
                          area_labels = c("C","B","A","B","C"))
 desc_EGA(datapoints)
 

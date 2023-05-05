@@ -10,7 +10,7 @@
 
 #' Calculate change logic
 #'
-#' logic whether to change a data points zone label. Points on line are default given to inner zone
+#' Calculate logic whether to change a data point's zone label. Points on line are given to inner zone
 #'
 #' @param x numeric, x coordinate of data point
 #' @param y numeric, y coordinate of data point
@@ -19,7 +19,7 @@
 #' @param x2 numeric, x coordinate of max point of zone boundary line
 #' @param y2 numeric, y coordinate of max point of zone boundary line
 #'
-#' @return logic
+#' @return A logic value
 #' @export
 #'
 #' @examples
@@ -62,7 +62,7 @@ change_log = function(x,y,x1,y1,x2,y2){
 
 #' Calculate change logic outer direction
 #'
-#' logic whether to change a data points zone label. Points on line are default given to inner zone
+#' Calculate logic whether to change a data points zone label. Points on line are given to outter zone
 #'
 #' @param x numeric, x coordinate of data point
 #' @param y numeric, y coordinate of data point
@@ -72,7 +72,7 @@ change_log = function(x,y,x1,y1,x2,y2){
 #' @param y2 numeric, y coordinate of max point of zone boundary line
 #' @param minx numeric, min x value of grid
 #'
-#' @return logic
+#' @return A logic value
 #' @export
 #'
 #' @examples
@@ -109,7 +109,7 @@ change_log_out = function(x,y,x1,y1,x2,y2,minx){
 # If a line segment is vertical, this function assess
 # if there are any points on the line.
 
-#' Calculate change logic on vertical zone boundaries
+#' Calculate change logic on vertical zone boundaries. Favouring inner direciton if points on line.
 #'
 #' @param x numeric, x coordinate of data point
 #' @param y numeric, y coordinate of data point
@@ -117,7 +117,7 @@ change_log_out = function(x,y,x1,y1,x2,y2,minx){
 #' @param y1 numeric, y coordinate of min point of zone boundary line
 #' @param y2 numeric, y coordinate of max point of zone boundary line
 #'
-#' @return logic
+#' @return A logic value
 #' @export
 #'
 #' @examples
@@ -158,7 +158,7 @@ change_log_ver = function(x,y,x12,y1,y2){
 
 #' Calculate change logic on vertical zone boundaries outer direction
 #'
-#' Calculate change logic on vertical zone boundaries, favouring outer direciton if points on line
+#' Calculate change logic on vertical zone boundaries. Favouring outer direciton if points on line
 #'
 #' @param x numeric, x coordinate of data point
 #' @param y numeric, y coordinate of data point
@@ -166,7 +166,7 @@ change_log_ver = function(x,y,x12,y1,y2){
 #' @param y1 numeric, y coordinate of min point of zone boundary line
 #' @param y2 numeric, y coordinate of max point of zone boundary line
 #'
-#' @return logic
+#' @return A logic value
 #' @export
 #'
 #' @examples

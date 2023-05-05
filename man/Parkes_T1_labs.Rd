@@ -3,7 +3,7 @@
 \docType{data}
 \name{Parkes_T1_labs}
 \alias{Parkes_T1_labs}
-\title{Area labels for Parkes Type 1 Error Grid for blood glucose}
+\title{Parkes Error Grid for blood glucose in Type 1 diabetes area labels}
 \format{
 An RData object
 }
@@ -14,7 +14,7 @@ An RData object
 data(Parkes_T1_labs)
 }
 \description{
-The area labels data file to use Parkes Type 1 Error Grid for blood glucose
+The area labels data file to use Parkes Error Grid for blood glucose in Type 1 diabetes
 }
 \examples{
 data(Parkes_T1_labs)

@@ -3,6 +3,8 @@
 
 #' Plot data in an Error Grid Analysis
 #'
+#' Performs zone assignment and plots data coloured by zone.
+#'
 #' @param data dataframe, data to plot in zones
 #' @param coords dataframe, coordinates of lines to make up the Error Grid Analysis (required)
 #' @param x_lab character, label for x axis
@@ -15,7 +17,8 @@
 #'
 #' @import ggplot2
 #'
-#' @return a ggplot object
+#' @return A ggplot object. Will either be displayed in plot window, or can be assigned to an object.
+#'         More ggplot layers can be added to the object afterwards.
 #' @export
 #'
 #' @examples

@@ -1,9 +1,9 @@
 # Saugel SAP Error Grid area labels ####
 # Area labels for Saugel SAP Error Grid for blood glucose
 
-#' Area labels for Saugel SAP Error Grid for blood glucose
+#' Saugel SAP Error Grid Area Labels
 #'
-#' The area labels data file to use Saugel SAP Error Grid for blood glucose
+#' The area labels data file to use for the Saugel SAP Error Grid
 #'
 #' @docType data
 #'

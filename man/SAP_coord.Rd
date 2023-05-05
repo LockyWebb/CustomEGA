@@ -3,7 +3,7 @@
 \docType{data}
 \name{SAP_coord}
 \alias{SAP_coord}
-\title{Coordinates for Saugel SAP Error Grid for blood glucose}
+\title{Saugel SAP Error Grid Coordinates}
 \format{
 An RData object
 }
@@ -14,7 +14,7 @@ An RData object
 data(SAP_coord)
 }
 \description{
-The coordinates data file to Saugel SAP Error Grid for blood glucose
+The coordinates data file to the Saugel et al (2018) systolic arterial blood pressure (SAP) Error Grid
 }
 \examples{
 data(SAP_coord)

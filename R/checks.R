@@ -3,7 +3,9 @@
 
 #' Check Lines
 #'
-#' @param coords coordinate points of lines on custom error grid
+#' Check if lines have been entered in correct format
+#'
+#' @param coords Coordinate points of lines for Custom Error Grid
 #'
 #' @return Error message if lines are not entered correctly. Otherwise nothing.
 #' @export
@@ -95,8 +97,10 @@ check_lines <- function(coords){
 
 #' Check Points
 #'
-#' @param data dataframe dataset of points
-#' @param coords dataframe coordinate points of lines on custom error grid
+#' Check if points have been entered in correct format
+#'
+#' @param data A dataframe, dataset of points
+#' @param coords A dataframe,  coordinate points of lines for Custom Error Grid
 #'
 #' @return Error message if data is outside area defined by grid coordinates. Otherwise nothing.
 #' @export
@@ -118,7 +122,8 @@ check_lines <- function(coords){
 #'          3,3,3,3,3,3,3,3,
 #'          4,4,4,4))
 #' }
-#' check_points(data = datapoints, coords = coordinates)
+#' check_points(data = datapoints,
+#'              coords = coordinates)
 check_points <- function(data, coords){
 
   # names in data is x and y
@@ -143,7 +148,9 @@ check_points <- function(data, coords){
 
 #' Check Line Cross
 #'
-#' @param coords dataframe coordinate points of lines on custom error grid
+#' Check if lines of Custom Error Grid cross. Lines can overlap, but they cannot intersect.
+#'
+#' @param coords A dataframe, coordinate points of lines for Custom Error Grid
 #'
 #' @return Error message if lines cross. Otherwise nothing.
 #' @export

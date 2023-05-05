@@ -1,9 +1,9 @@
 # Saugel SAP Error Grid Coordinates ####
 # Coordinates for Saugel SAP Error Grid for blood glucose
 
-#' Coordinates for Saugel SAP Error Grid for blood glucose
+#' Saugel SAP Error Grid Coordinates
 #'
-#' The coordinates data file to Saugel SAP Error Grid for blood glucose
+#' The coordinates data file to the Saugel et al (2018) systolic arterial blood pressure (SAP) Error Grid
 #'
 #' @docType data
 #'

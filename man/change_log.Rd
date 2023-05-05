@@ -20,10 +20,10 @@ change_log(x, y, x1, y1, x2, y2)
 \item{y2}{numeric, y coordinate of max point of zone boundary line}
 }
 \value{
-logic
+A logic value
 }
 \description{
-logic whether to change a data points zone label. Points on line are default given to inner zone
+Calculate logic whether to change a data point's zone label. Points on line are given to inner zone
 }
 \examples{
 ## Not Run

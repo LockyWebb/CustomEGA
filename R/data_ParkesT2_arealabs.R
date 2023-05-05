@@ -1,9 +1,9 @@
 # Parkes Type 2 Error Grid area labels ####
 # Area labels for Parkes Type 2 Error Grid for blood glucose
 
-#' Area labels for Parkes Type 2 Error Grid for blood glucose
+#' Parkes Error Grid for blood glucose in Type 2 diabetes area labels
 #'
-#' The area labels data file to use Parkes Type 2 Error Grid for blood glucose
+#' The area labels data file to use Parkes Error Grid for blood glucose in Type 2 diabetes
 #'
 #' @docType data
 #'

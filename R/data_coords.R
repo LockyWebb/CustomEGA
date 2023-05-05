@@ -3,7 +3,7 @@
 
 #' Data for examples
 #'
-#' Have an example set of cordinates
+#' A basic example set of cordinates for an Error Grid
 #'
 #' @docType data
 #'

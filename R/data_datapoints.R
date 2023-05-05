@@ -3,7 +3,7 @@
 
 #' Data for examples
 #'
-#' Have an example set of data points
+#' A basic example set of data points to use with the example Error Grid
 #'
 #' @docType data
 #'

@@ -1,9 +1,9 @@
 # Parkes Type 2 Error Grid Coordinates ####
 # Coordinates for Parkes Type 2 Error Grid for blood glucose
 
-#' Coordinates for Parkes Type 2 Error Grid for blood glucose
+#' Parkes Error Grid coordinates  for blood glucose Type 2 diabetes
 #'
-#' The coordinates data file to use Parkes Type 2 Error Grid for blood glucose
+#' The coordinates data file to use Parkes Error Grid for blood glucose in Type 2 diabetes
 #'
 #' @docType data
 #'

@@ -3,16 +3,17 @@
 
 #' Assign Zones to data points
 #'
-#' Master function to calculate the zones for a given set of data points
-#' and given grid defined by coordinates in a dataframe. Performs checks
-#' on data and grid coordinates
+#' Function to calculate the zones for a given set of data points
+#' and given an Error Grid defined by coordinates in a dataframe. Performs checks
+#' on data and grid coordinates to ensure everything has been entered correctly.
 #'
-#' @param data dataframe, dataset of points
-#' @param coords dataframe of coordinates of points making up lines of error grid
-#' @param area_labels vector of area labels for each zone
-#' @param dir character direction, should points on line go to the inner or outer zone c("in","out")
+#' @param data A dataframe, the dataset of points of (gold standard method, novel method)
+#' @param coords A dataframe, coordinate points of lines for a Custom Error Grid
+#' @param area_labels A vector of area labels for each zone
+#' @param dir A character value for direction. Should points that sit on a Error Grid line go to the inner or outer zone c("in","out")
 #'
-#' @return vector
+#' @return A vector of zones. You can add this vector to a dataframe, or keep it as a separate object.
+#'         It does not automatically add it to the dataset the data points came from.
 #' @export
 #'
 #' @examples
@@ -33,8 +34,12 @@
 #'          4,4,4,4))
 #' }
 #'
-#' zones(data = datapoints, coords = coordinates, area_labels = c("C","B","A","B","C"))
-#' zones(data = datapoints, coords = coordinates, area_labels = c("C1","B1","A","B2","C2"))
+#' zones(data = datapoints,
+#'       coords = coordinates,
+#'       area_labels = c("C","B","A","B","C"))
+#' zones(data = datapoints,
+#'       coords = coordinates,
+#'       area_labels = c("C1","B1","A","B2","C2"))
 zones <- function(data, coords, area_labels, dir = "in"){
   check_lines(coords)
   check_points(data, coords)

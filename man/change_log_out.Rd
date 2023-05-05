@@ -22,10 +22,10 @@ change_log_out(x, y, x1, y1, x2, y2, minx)
 \item{minx}{numeric, min x value of grid}
 }
 \value{
-logic
+A logic value
 }
 \description{
-logic whether to change a data points zone label. Points on line are default given to inner zone
+Calculate logic whether to change a data points zone label. Points on line are given to outter zone
 }
 \examples{
 ## Not Run

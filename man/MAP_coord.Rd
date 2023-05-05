@@ -3,7 +3,7 @@
 \docType{data}
 \name{MAP_coord}
 \alias{MAP_coord}
-\title{Coordinates for Saugel MAP Error Grid for blood glucose}
+\title{Saugel MAP Error Grid Coordinates}
 \format{
 An RData object
 }
@@ -14,7 +14,7 @@ An RData object
 data(MAP_coord)
 }
 \description{
-The coordinates data file to Saugel MAP Error Grid for blood glucose
+The coordinates data file to the Saugel et al (2018) mean arterial blood pressure (MAP) Error Grid
 }
 \examples{
 data(MAP_coord)

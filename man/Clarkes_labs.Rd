@@ -3,7 +3,7 @@
 \docType{data}
 \name{Clarkes_labs}
 \alias{Clarkes_labs}
-\title{Area labels for Clarke's Error Grid for blood glucose}
+\title{Clarke's Error Grid for blood glucose area labels}
 \format{
 An RData object
 }

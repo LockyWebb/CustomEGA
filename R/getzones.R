@@ -3,16 +3,20 @@
 #
 # Assigns the zones to each point in data based on the lines defined in coords
 
-#' Calculate the Zones
+#' Calculate the zones in the Custom Error Grid
 #'
-#' @param data dataframe, dataset of points
-#' @param coords dataframe coordinate points of lines on custom error grid
-#' @param area_labels vector of area labels for each zone
-#' @param dir character direction, should points on line go to the inner or outer zone c("in","out")
+#' Calculate the zones in the Custom Error Grid for the provided data points.
+#' This function does not perform checks on the entered data and Error Grid coordinates
+#'
+#' @param data A dataframe, dataset of points of (gold standard method, novel method)
+#' @param coords A dataframe, coordinate points of lines for Custom Error Grid
+#' @param area_labels A vector of area labels for each zone
+#' @param dir A character value for direction. Should points that sit on a Error Grid line go to the inner or outer zone c("in","out")
 #'
 #' @importFrom magrittr "%>%"
 #'
-#' @return vector of zones
+#' @return A vector of zones. You can add this vector to a dataframe, or keep it as a separate object.
+#'         It does not automatically add it to the dataset the data points came from.
 #' @export
 #'
 #' @examples
@@ -32,7 +36,9 @@
 #'          3,3,3,3,3,3,3,3,
 #'          4,4,4,4))
 #' }
-#' get_zones(data = datapoints, coords = coordinates, area_labels = c("C1","B1","A","B2","C2"))
+#' get_zones(data = datapoints,
+#'           coords = coordinates,
+#'           area_labels = c("C1","B1","A","B2","C2"))
 get_zones <- function(data, coords, area_labels, dir = "in"){
   z<-NULL
   # names in data is x and y

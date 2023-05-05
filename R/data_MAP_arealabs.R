@@ -1,9 +1,9 @@
 # Saugel MAP Error Grid area labels ####
 # Area labels for Saugel MAP Error Grid for blood glucose
 
-#' Area labels for Saugel MAP Error Grid for blood glucose
+#' Saugel MAP Error Grid Area Labels
 #'
-#' The area labels data file to use Saugel MAP Error Grid for blood glucose
+#' The area labels data file to use for the Saugel MAP Error Grid
 #'
 #' @docType data
 #'

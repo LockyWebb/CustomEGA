@@ -1,7 +1,7 @@
 # Clarke's Error Grid Coordinates ####
 # Coordinates for Clarke's Error Grid for blood glucose
 
-#' Coordinates for Clarke's Error Grid for blood glucose
+#' Clarke's Error Grid coordinates (blood glucose)
 #'
 #' The coordinates data file to use Clarke's Error Grid for blood glucose
 #'

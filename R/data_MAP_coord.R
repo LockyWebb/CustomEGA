@@ -1,9 +1,9 @@
 # Saugel MAP Error Grid Coordinates ####
 # Coordinates for Saugel MAP Error Grid for blood glucose
 
-#' Coordinates for Saugel MAP Error Grid for blood glucose
+#' Saugel MAP Error Grid Coordinates
 #'
-#' The coordinates data file to Saugel MAP Error Grid for blood glucose
+#' The coordinates data file to the Saugel et al (2018) mean arterial blood pressure (MAP) Error Grid
 #'
 #' @docType data
 #'

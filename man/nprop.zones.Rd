@@ -2,12 +2,12 @@
 % Please edit documentation in R/npropzones.R
 \name{nprop.zones}
 \alias{nprop.zones}
-\title{Summarise Freq and Prop Zones}
+\title{Summarise Frequency and Proportion of each Zone}
 \usage{
 nprop.zones(zone, group = NULL, rounding = 2)
 }
 \arguments{
-\item{zone}{vector calcualted zones}
+\item{zone}{A vector of calculated zones}
 
 \item{group}{NULL, ignore}
 
@@ -17,7 +17,7 @@ nprop.zones(zone, group = NULL, rounding = 2)
 list frequency and percent of each zone in the dataset
 }
 \description{
-Summarise Freq and Prop Zones
+Summarise Frequency and Proportion of each Zone
 }
 \examples{
 \dontshow{
@@ -36,6 +36,8 @@ line_id=c(1,1,1,1,1,
          3,3,3,3,3,3,3,3,
          4,4,4,4))
 }
-zone <- zones(data = datapoints, coords = coordinates, area_labels = c("C","B","A","B","C"))
+zone <- zones(data = datapoints,
+              coords = coordinates,
+              area_labels = c("C","B","A","B","C"))
 nprop.zones(zone,rounding=2)
 }

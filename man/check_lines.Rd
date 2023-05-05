@@ -7,13 +7,13 @@
 check_lines(coords)
 }
 \arguments{
-\item{coords}{coordinate points of lines on custom error grid}
+\item{coords}{Coordinate points of lines for Custom Error Grid}
 }
 \value{
 Error message if lines are not entered correctly. Otherwise nothing.
 }
 \description{
-Check Lines
+Check if lines have been entered in correct format
 }
 \examples{
 \dontshow{

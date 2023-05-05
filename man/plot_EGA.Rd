@@ -36,10 +36,11 @@ plot_EGA(
 \item{check_zone}{TRUE or FALSE, whether to check the zones have been calculated correctly}
 }
 \value{
-a ggplot object
+A ggplot object. Will either be displayed in plot window, or can be assigned to an object.
+        More ggplot layers can be added to the object afterwards.
 }
 \description{
-Plot data in an Error Grid Analysis
+Performs zone assignment and plots data coloured by zone.
 }
 \examples{
 \dontshow{

@@ -7,7 +7,7 @@
 upplftarea(df, ymin, ymax, xmin, xmax)
 }
 \arguments{
-\item{df}{dataframe with variables x and y,}
+\item{df}{A dataframe with variables x and y,}
 
 \item{ymin}{numeric, minimum y of grid}
 
@@ -18,10 +18,10 @@ upplftarea(df, ymin, ymax, xmin, xmax)
 \item{xmax}{numeric, maximum x of grid}
 }
 \value{
-numeric area above zone boundary
+Numeric area above zone boundary in the grid
 }
 \description{
-Upper Left Area of each zone boundary
+Calculates the upper left area of each zone boundary. That is, the area made by a Error Grid line and the top left corner of the Grid.
 }
 \examples{
 \dontrun{

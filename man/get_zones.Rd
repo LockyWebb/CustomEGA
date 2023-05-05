@@ -2,24 +2,26 @@
 % Please edit documentation in R/getzones.R
 \name{get_zones}
 \alias{get_zones}
-\title{Calculate the Zones}
+\title{Calculate the zones in the Custom Error Grid}
 \usage{
 get_zones(data, coords, area_labels, dir = "in")
 }
 \arguments{
-\item{data}{dataframe, dataset of points}
+\item{data}{A dataframe, dataset of points of (gold standard method, novel method)}
 
-\item{coords}{dataframe coordinate points of lines on custom error grid}
+\item{coords}{A dataframe, coordinate points of lines for Custom Error Grid}
 
-\item{area_labels}{vector of area labels for each zone}
+\item{area_labels}{A vector of area labels for each zone}
 
-\item{dir}{character direction, should points on line go to the inner or outer zone c("in","out")}
+\item{dir}{A character value for direction. Should points that sit on a Error Grid line go to the inner or outer zone c("in","out")}
 }
 \value{
-vector of zones
+A vector of zones. You can add this vector to a dataframe, or keep it as a separate object.
+        It does not automatically add it to the dataset the data points came from.
 }
 \description{
-Calculate the Zones
+Calculate the zones in the Custom Error Grid for the provided data points.
+This function does not perform checks on the entered data and Error Grid coordinates
 }
 \examples{
 \dontshow{
@@ -38,5 +40,7 @@ line_id=c(1,1,1,1,1,
          3,3,3,3,3,3,3,3,
          4,4,4,4))
 }
-get_zones(data = datapoints, coords = coordinates, area_labels = c("C1","B1","A","B2","C2"))
+get_zones(data = datapoints,
+          coords = coordinates,
+          area_labels = c("C1","B1","A","B2","C2"))
 }

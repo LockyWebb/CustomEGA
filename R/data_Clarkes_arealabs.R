@@ -1,7 +1,7 @@
 # Clarke's Error Grid area labels ####
 # Area labels for Clarke's Error Grid for blood glucose
 
-#' Area labels for Clarke's Error Grid for blood glucose
+#' Clarke's Error Grid for blood glucose area labels
 #'
 #' The area labels data file to use Clarke's Error Grid for blood glucose
 #'

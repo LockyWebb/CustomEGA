@@ -2,7 +2,7 @@
 % Please edit documentation in R/logicfuns.R
 \name{change_log_ver}
 \alias{change_log_ver}
-\title{Calculate change logic on vertical zone boundaries}
+\title{Calculate change logic on vertical zone boundaries. Favouring inner direciton if points on line.}
 \usage{
 change_log_ver(x, y, x12, y1, y2)
 }
@@ -18,10 +18,10 @@ change_log_ver(x, y, x12, y1, y2)
 \item{y2}{numeric, y coordinate of max point of zone boundary line}
 }
 \value{
-logic
+A logic value
 }
 \description{
-Calculate change logic on vertical zone boundaries
+Calculate change logic on vertical zone boundaries. Favouring inner direciton if points on line.
 }
 \examples{
 ## Not Run

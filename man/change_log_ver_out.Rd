@@ -18,10 +18,10 @@ change_log_ver_out(x, y, x12, y1, y2)
 \item{y2}{numeric, y coordinate of max point of zone boundary line}
 }
 \value{
-logic
+A logic value
 }
 \description{
-Calculate change logic on vertical zone boundaries, favouring outer direciton if points on line
+Calculate change logic on vertical zone boundaries. Favouring outer direciton if points on line
 }
 \examples{
 ## Not Run

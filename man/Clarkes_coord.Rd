@@ -3,7 +3,7 @@
 \docType{data}
 \name{Clarkes_coord}
 \alias{Clarkes_coord}
-\title{Coordinates for Clarke's Error Grid for blood glucose}
+\title{Clarke's Error Grid coordinates (blood glucose)}
 \format{
 An RData object
 }

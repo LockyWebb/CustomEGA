@@ -6,9 +6,9 @@
 
 #' Upper Left Area
 #'
-#' Upper Left Area of each zone boundary
+#' Calculates the upper left area of each zone boundary. That is, the area made by a Error Grid line and the top left corner of the Grid.
 #'
-#' @param df dataframe with variables x and y,
+#' @param df A dataframe with variables x and y,
 #' @param ymin numeric, minimum y of grid
 #' @param ymax numeric, maximum y of grid
 #' @param xmin numeric, minimum x of grid
@@ -17,7 +17,7 @@
 #' @importFrom magrittr "%<>%"
 #' @importFrom dplyr "arrange"
 #'
-#' @return numeric area above zone boundary
+#' @return Numeric area above zone boundary in the grid
 #' @export
 #'
 #' @examples

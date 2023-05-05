@@ -3,7 +3,7 @@
 \docType{data}
 \name{Parkes_T2_coord}
 \alias{Parkes_T2_coord}
-\title{Coordinates for Parkes Type 2 Error Grid for blood glucose}
+\title{Parkes Error Grid coordinates  for blood glucose Type 2 diabetes}
 \format{
 An RData object
 }
@@ -14,7 +14,7 @@ An RData object
 data(Parkes_T2_coord)
 }
 \description{
-The coordinates data file to use Parkes Type 2 Error Grid for blood glucose
+The coordinates data file to use Parkes Error Grid for blood glucose in Type 2 diabetes
 }
 \examples{
 data(Parkes_T2_coord)

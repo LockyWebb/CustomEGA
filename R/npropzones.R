@@ -1,9 +1,9 @@
 # Function 8 part 2
 # get proportion of zones
 
-#' Summarise Freq and Prop Zones
+#' Summarise Frequency and Proportion of each Zone
 #'
-#' @param zone vector calcualted zones
+#' @param zone A vector of calculated zones
 #' @param group NULL, ignore
 #' @param rounding integer, the number of decimal places to round to
 #'
@@ -27,9 +27,11 @@
 #'          3,3,3,3,3,3,3,3,
 #'          4,4,4,4))
 #' }
-#' zone <- zones(data = datapoints, coords = coordinates, area_labels = c("C","B","A","B","C"))
+#' zone <- zones(data = datapoints,
+#'               coords = coordinates,
+#'               area_labels = c("C","B","A","B","C"))
 #' nprop.zones(zone,rounding=2)
-nprop.zones<-function(zone,group=NULL,rounding=2){
+nprop.zones<-function(zone, group=NULL, rounding=2){
   nproplist<-list(table(zone),round(prop.table(table(zone))*100,rounding))
   names(nproplist)[1:2]<-c("Frequency","Percent")
   return(nproplist)

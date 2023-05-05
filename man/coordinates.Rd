@@ -11,7 +11,7 @@ An RData object
 data(coordinates)
 }
 \description{
-Have an example set of cordinates
+A basic example set of cordinates for an Error Grid
 }
 \examples{
 data(coordinates)
