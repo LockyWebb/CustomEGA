@@ -1,6 +1,6 @@
 # Custom EGA
 
-The Custom Error Grid Analysis package (CustomEGA) allows you to both use 3 different types of exisitng error rids for error grid analysis, as well as custom build your own. 
+The Custom Error Grid Analysis package (CustomEGA) allows you to both use 3 different types of existing error grids for error grid analysis, as well as custom build your own. 
 
 ## Error Grid Analysis 
 
